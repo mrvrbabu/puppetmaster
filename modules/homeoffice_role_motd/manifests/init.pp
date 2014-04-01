@@ -1,4 +1,4 @@
-# Class to display MOTD message during login
+# Class to display 'motd' message during login
 class homeoffice_role_motd {
   file { '/etc/motd':
   ensure => file,
