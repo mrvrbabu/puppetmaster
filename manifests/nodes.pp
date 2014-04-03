@@ -17,7 +17,6 @@ node 'kvmnode6403.homeoffice.net' {
   class { 'homeoffice_role_motd' :}
   class { 'homeoffice_role_httpd' :}
   }
-  }
 
 node 'kvmnode6404.homeoffice.net' {
   class { 'homeoffice_role_motd' :}
