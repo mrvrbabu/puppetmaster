@@ -14,7 +14,7 @@ node 'kvmnode6402.homeoffice.net' {
   $site_name = 'cats'
   $site_domain_name = 'cats.homeoffice.net'
   file { '/etc/httpd/conf.d/vhost.conf' :
-  content => template('homeoffice_role_httpd/vhost.conf.erb'),
+  content => template("homeoffice_role_httpd/vhost.conf.erb"),
   notify  => Service['httpd'],
   }
   }
@@ -26,7 +26,7 @@ node 'kvmnode6403.homeoffice.net' {
   $site_name = 'dogs'
   $site_domain_name = 'dogs.homeoffice.net'
   file { '/etc/httpd/conf.d/vhost.conf' :
-  content => template('homeoffice_role_httpd/vhost.conf.erb'),
+  content => template("homeoffice_role_httpd/vhost.conf.erb"),
   notify  => Service['httpd'],
   }
   }
