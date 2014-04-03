@@ -22,7 +22,7 @@ node 'kvmnode6402.homeoffice.net' {
   owner  => 'root',
   group  => 'root',
   mode   => '0644',
-  content => template('homeoffice_role_httpd/index.html.erb'),
+  content => template("homeoffice_role_httpd/index.html.erb"),
   }
   }
 
@@ -36,12 +36,12 @@ node 'kvmnode6403.homeoffice.net' {
   content => template("homeoffice_role_httpd/vhost.conf.erb"),
   notify  => Service['httpd'],
   }
-  file { '/var/www/html/cats/index.html' :
+  file { '/var/www/html/dogs/index.html' :
   ensure => file,
   owner  => 'root',
   group  => 'root',
   mode   => '0644',
-  content => template('homeoffice_role_httpd/index.html.erb'),
+  content => template("homeoffice_role_httpd/index.html.erb"),
   }
   }
 
