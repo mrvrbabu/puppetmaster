@@ -1,5 +1,5 @@
 NameVirtualHost  *:80
-<VirtualHost <%=  ip %>>
+<VirtualHost *:80>
   DocumentRoot /var/www/html/<%= @site_name %>
   ServerName  <%= @site_domain_name %>
 </VirtualHost> 
