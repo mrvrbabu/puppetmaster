@@ -49,6 +49,6 @@ class homeoffice_role_bind {
     }
 
   service { 'named':
-    ensure => enabled,
+    ensure => running,
     }
 }
