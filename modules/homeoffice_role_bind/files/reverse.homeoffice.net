@@ -1,0 +1,43 @@
+$TTL    600	
+@		IN SOA	homeoffice.net. root.masterserver.homeoffice.net. (
+					2013031809		; serial (d. adams)
+					3H		; refresh
+					15M		; retry
+					1W		; expiry
+					1D )		; minimum
+@	                IN NS	    masterserver.	
+10                      IN PTR      masterserver.homeoffice.net.
+10                      IN PTR      chat.
+10                      IN PTR      puppetmaster.
+10                      IN PTR      ftp.
+
+20                       IN PTR      vmserver20.homeoffice.net.
+30                       IN PTR      vmserver30.homeoffice.net.
+201                      IN PTR      node201.homeoffice.net.
+202                      IN PTR      node202.homeoffice.net.
+203                      IN PTR      node203.homeoffice.net.
+204                      IN PTR      node204.homeoffice.net.
+
+205                      IN PTR      node205.homeoffice.net.
+206                      IN PTR      node206.homeoffice.net.
+207                      IN PTR      node207.homeoffice.net.
+208                      IN PTR      node208.homeoffice.net.
+209                      IN PTR      node209.homeoffice.net.
+210                      IN PTR      node210.homeoffice.net.
+211                      IN PTR      node211.homeoffice.net.
+212                      IN PTR      node212.homeoffice.net.
+10                       IN PTR      mail.homeoffice.net.
+#10   			 IN PTR	     ldapserver.homeoffice.net.
+
+221                      IN PTR     node301.homeoffice.net.
+222                      IN PTR     node302.homeoffice.net.
+223                      IN PTR     node303.homeoffice.net.
+224 			 IN PTR     node304.homeoffice.net.
+225			 IN PTR     node305.homeoffice.net.
+
+251                      IN PTR     node5464001.homeoffice.net.
+252                      IN PTR     node5464002.homeoffice.net.
+253                      IN PTR     node5464003.homeoffice.net.
+254                      IN PTR     node5464004.homeoffice.net.
+
+50 			 IN PTR     mydesktop.homeoffice.net.

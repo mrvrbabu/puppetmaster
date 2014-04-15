@@ -1,0 +1,29 @@
+$TTL    600	
+@		IN SOA	homeoffice.net. root.masterserver.homeoffice.net. (
+					2013121806	; serial (d. adams)
+					3H		; refresh
+					15M		; retry
+					1W		; expiry
+					1D )		; minimum
+@	                 IN NS	    masterserver.	
+2                        IN PTR     svn.homeoffice.net.
+20			 IN PTR     kvmserver.homeoffice.net.
+30 	        	 IN PTR     xenserver.homeoffice.net.
+101                      IN PTR     kvmnode5401.homeoffice.net.
+102                      IN PTR     kvmnode5402.homeoffice.net.
+103                      IN PTR     kvmnode5403.homeoffice.net.
+
+201                      IN PTR     kvmnode6401.homeoffice.net.
+202                      IN PTR     kvmnode6402.homeoffice.net.
+203                      IN PTR     kvmnode6403.homeoffice.net.
+204                      IN PTR     kvmnode6404.homeoffice.net.
+205                      IN PTR     kvmnode6405.homeoffice.net.
+206                      IN PTR     kvmnode6406.homeoffice.net.
+207                      IN PTR     kvmnode6407.homeoffice.net.
+208                      IN PTR     kvmnode6408.homeoffice.net.
+209                      IN PTR     kvmnode6409.homeoffice.net.
+210                      IN PTR     kvmnode6410.homeoffice.net.
+
+#109                      IN PTR     ldapmaster.homeoffice.net.
+#110                      IN PTR     ldapslave.homeoffice.net.
+
