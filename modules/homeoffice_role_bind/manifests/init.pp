@@ -8,7 +8,7 @@ class homeoffice_role_bind {
     owner   => 'named',
     group   => 'named',
     mode    => '0640',
-    source  => "puppet:///module/${module_name}/named.conf",
+    source  => "puppet:///modules/${module_name}/named.conf",
     require => Package['bind-chroot'],
     }
 
