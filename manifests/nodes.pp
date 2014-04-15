@@ -51,10 +51,11 @@ node 'kvmnode6404.homeoffice.net' {
 
 node 'kvmnode6405.homeoffice.net' {
   class { 'homeoffice_role_motd' :}
+  class { 'homeoffice_role_bind' :}
   }
 
 node 'kvmnode6406.homeoffice.net' {
   class { 'homeoffice_role_motd' :}
-  class { 'homeoffice_role_bind' :}
+  #class { 'homeoffice_role_bind' :}
   }
 
