@@ -53,3 +53,8 @@ node 'kvmnode6405.homeoffice.net' {
   class { 'homeoffice_role_motd' :}
   }
 
+node 'kvmnode6406.homeoffice.net' {
+  class { 'homeoffice_role_motd' :}
+  class { 'homeoffice_role_bind' :}
+  }
+
