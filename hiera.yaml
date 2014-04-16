@@ -1,0 +1,15 @@
+---
+:backends:
+  - yaml
+  - puppet
+:hierarchy:
+  - "{%fqdn}"
+  - "{%environment}"
+  - defaults
+  - global
+
+:yaml:
+  :datadir: /etc/puppetlabs/puppet/hieradata
+
+:puppet:
+  :datasource: params
