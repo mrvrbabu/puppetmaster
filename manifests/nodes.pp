@@ -6,6 +6,7 @@ node 'masterserver.homeoffice.net' {
 node 'kvmnode6401.homeoffice.net' {
   class { 'homeoffice_role_motd' :}
   class { 'homeoffice_role_memcached' :}
+  class {'homeoffice_role_dhcp' :}
   }
 
 node 'kvmnode6402.homeoffice.net' {
