@@ -2,6 +2,6 @@
 
 class homeoffice_role_dhcp::service {
   service { $homeoffice_role_dhcp::dhcp_service :
-    ensure => $homeoffice_role_dhcp::dhcp_ensure
+    ensure => $homeoffice_role_dhcp::dhcp_ensure,
   }
 }

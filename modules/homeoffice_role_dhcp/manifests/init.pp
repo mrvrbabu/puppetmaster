@@ -1,6 +1,7 @@
 #This module is to install dhcpd server on master server
 class homeoffice_role_dhcp (
     $dhcp_packagename   = hiera('homeoffice_role_dhcp_dhcp_packagename'),
+    $dhcp_package       = hiera('homeoffice_role_dhcp_dhcp_package'),
     $dhcp_ensure        = hiera('homeoffice_role_dhcp_dhcp_ensure'),
     $dhcp_service       = hiera('homeoffice_role_dhcp_dhcp_service'),
     ) {
