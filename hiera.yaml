@@ -3,8 +3,8 @@
   - yaml
   - puppet
 :hierarchy:
-  - "{%fqdn}"
-  - "{%environment}"
+  - "%{fqdn}"
+  - "%{environment}"
   - defaults
   - global
 
