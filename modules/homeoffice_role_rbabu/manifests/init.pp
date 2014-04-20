@@ -1,7 +1,7 @@
 # This puppet module is to add user 'rbabu' on all nodes
 class homeoffice_role_rbabu {
   user { 'rbabu':
-  ensure           => 'present'
+  ensure           => 'present',
   gid              => '500',
   home             => '/home/rbabu',
   password         => '$6$KTPI13n0$yDKR1cBJBdNfJXJiMpkbg7cyB.Y.U3AiBB2hLNsvCRh4S3uabXmtGG/.cKwahYuXNOTHMr0c/J4XjXVODzWh2.',
