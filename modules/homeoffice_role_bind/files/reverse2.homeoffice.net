@@ -1,6 +1,6 @@
 $TTL    600	
 @		IN SOA	homeoffice.net. root.masterserver.homeoffice.net. (
-					2013121806	; serial (d. adams)
+					2013121807	; serial (d. adams)
 					3H		; refresh
 					15M		; retry
 					1W		; expiry
@@ -22,7 +22,9 @@ $TTL    600
 207                      IN PTR     kvmnode6407.homeoffice.net.
 208                      IN PTR     kvmnode6408.homeoffice.net.
 209                      IN PTR     kvmnode6409.homeoffice.net.
-210                      IN PTR     kvmnode6410.homeoffice.net.
+210                      IN PTR     puppetmaster101.homeoffice.net.
+211                      IN PTR     puppetagent101.homeoffice.net.
+212                      IN PTR     puppetagent102.homeoffice.net.
 
 #109                      IN PTR     ldapmaster.homeoffice.net.
 #110                      IN PTR     ldapslave.homeoffice.net.
