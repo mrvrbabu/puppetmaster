@@ -1,6 +1,6 @@
 ---
 
-homeoffice_role_dhcp_dhcp_packagename : dhcp
+homeoffice_role_dhcp_dhcp_packagename : "dhcp"
 homeoffice_role_dhcp_dhcp_package     : installed 
 homeoffice_role_dhcp_dhcp_service     : dhcpd
 homeoffice_role_dhcp_dhcp_ensure      : running 
