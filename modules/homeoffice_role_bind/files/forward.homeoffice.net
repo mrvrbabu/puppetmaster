@@ -1,6 +1,6 @@
 $TTL	86400
 @		IN SOA	masterserver.homeoffice.net.  root (
-				2013031928		; serial (d. adams)
+				2013031929		; serial (d. adams)
 					3H		; refresh
 					15M		; retry
 					1W		; expiry
@@ -8,7 +8,7 @@ $TTL	86400
 	                IN NS	     masterserver	
 masterserver            IN A    192.168.2.10
 puppetmaster            IN CNAME  masterserver
-;puppet                  IN CNAME  masterserver
+puppet                  IN CNAME  masterserver
 wordpress               IN CNAME  masterserver
 python                  IN CNAME  masterserver
 svn                     IN A    192.168.2.10  
