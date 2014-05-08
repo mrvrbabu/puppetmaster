@@ -1,7 +1,7 @@
 #Manifest to provide package details
 class tomcatsingleinstance::package {
   package {'java':
-    ensure    =>  present,
+    ensure    =>  installed,
  }
  
   package {'tomcat7.noarch' :
