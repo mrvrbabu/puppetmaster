@@ -3,6 +3,6 @@ class tomcatsingleinstance::repo {
     descr     => 'Master server repo',
     gpgcheck  => 0,
     enbled    => 1,
-    baseurl   => 'ftp://ftp://192.168.2.10/pub/rhel64_64/Server' 
+    baseurl   => 'ftp://ftp://192.168.2.10/pub/rhel64_64/Server', 
   }
 }
