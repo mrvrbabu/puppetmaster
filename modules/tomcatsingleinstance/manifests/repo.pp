@@ -1,5 +1,5 @@
 class tomcatsingleinstance::repo {
-  yumrepo { 'Master_server':
+  yumrepo { "Master_server":
     descr     => 'Master server repo',
     gpgcheck  => 0,
     enabled    => 1,
