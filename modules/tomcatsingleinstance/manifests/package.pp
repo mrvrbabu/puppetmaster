@@ -4,7 +4,7 @@ class tomcatsingleinstance::package {
     ensure    =>  installed,
  }
  
-  package {'tomcat7.noarch' :
+  package {'tomcat7' :
     ensure    => installed,
   }
 }
