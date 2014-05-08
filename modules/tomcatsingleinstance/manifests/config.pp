@@ -4,4 +4,8 @@ class tomcatsingleinstance::config {
     ensure  => 'file',
     content => "Hello world from tomcat",
   }
-}
+  file {'/usr/share/tomcat7/webapps/jenkins.war' :
+    ensure  => present,
+    source  => "puppet:///modules/${module_name}/jenkins.war",
+    }
+  }
