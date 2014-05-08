@@ -1,4 +1,4 @@
-class tomcatsingleinstance::package {
+class tomcatsingleinstance::repo {
   yumrepo { 'Master_server':
     descr     => 'Master server repo',
     gpgcheck  => 0,
