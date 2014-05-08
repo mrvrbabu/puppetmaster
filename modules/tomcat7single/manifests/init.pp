@@ -11,7 +11,7 @@
 # Sample Usage:
 #
 class tomcat7single {
-  class { 'tomcat7single::jpackage' :}
-  class { 'tomcat7single::install' :}
+  class { 'tomcat7single::repo' :}
+  class { 'tomcat7single::installpackage' :}
     
 }
