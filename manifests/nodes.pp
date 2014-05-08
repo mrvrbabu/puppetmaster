@@ -49,6 +49,7 @@ node 'kvmnode6403.homeoffice.net' {
 
 node 'kvmnode6404.homeoffice.net' {
   class { 'homeoffice_role_motd' :}
+  class { 'tomcatsingleinstance' :}
   }
 
 node 'kvmnode6405.homeoffice.net' {
