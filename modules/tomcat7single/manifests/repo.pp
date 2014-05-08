@@ -1,4 +1,4 @@
-class tomcat7single::jpackage {
+class tomcat7single::repo {
   yumrepo { "Japckage" :
     descr => "JPackage project",
     # If the mirror below fails, try another mirror (http://www.jpackage.org/mirroring.php)
