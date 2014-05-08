@@ -1,4 +1,4 @@
-class tomcat7single::install {
+class tomcat7single::installpackage {
   package { 'java-1.7.0-openjdk':
       ensure => latest,
     }
