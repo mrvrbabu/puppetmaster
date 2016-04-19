@@ -1,4 +1,3 @@
-
 ## site.pp ##
 
 # This file (/etc/puppetlabs/puppet/manifests/site.pp) is the main entry point
@@ -12,19 +11,8 @@
 
 ## Active Configurations ##
 
-# PRIMARY FILEBUCKET
-# This configures puppet agent and puppet inspect to back up file contents when
-# they run. The Puppet Enterprise console needs this to display file contents
-# and differences.
-
-# Define filebucket 'main':
-filebucket { 'main':
-  server => 'masterserver.homeoffice.net',
-  path   => false,
-}
-
-# Make filebucket 'main' the default backup location for all File resources:
-File { backup => 'main' }
+# Disable filebucket by default for all File resources:
+File { backup => false }
 
 # DEFAULT NODE
 # Node definitions in this file are merged with node data from the console. See
@@ -42,4 +30,3 @@ node default {
   #   class { 'my_class': }
 }
 
-import 'nodes.pp'
