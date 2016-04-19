@@ -3,42 +3,7 @@
 #
 # Full description of class helloworld here.
 #
-# Parameters
-# ----------
-#
-# Document parameters here.
-#
-# * `sample parameter`
-#
-# Variables
-# ----------
-#
-# Here you should define a list of variables that this module would require.
-#
-# * `sample variable`
-#
-# Examples
-# --------
-#
-# @example
-#    class { 'helloworld':
-#      servers => [ 'pool.ntp.org', 'ntp.local.company.com' ],
-#    }
-#
-# Authors
-# -------
-#
-# Author Name <author@domain.com>
-#
-# Copyright
-# ---------
-#
-# Copyright 2016 Your name here, unless otherwise noted.
-#
-#class helloworld {
-#
-#
-#}
+#Adding changes from shorten_title branch to init.pp file
 
 class helloworld {
     notify { 'hello, world!': }
