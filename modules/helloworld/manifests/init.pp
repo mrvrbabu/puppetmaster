@@ -10,9 +10,6 @@
 #Adding changes from shorten_title branch to init.pp file
 >>>>>>> shorten_title
 =======
-#class helloworld {
-#
-#
 #}
 >>>>>>> Stashed changes
 
