@@ -1,0 +1,15 @@
+{
+  "name": "test-helloworld",
+  "version": "0.1.0",
+  "author": "test",
+  "summary": null,
+  "license": "Apache-2.0",
+  "source": "git",
+  "project_page": "github.com",
+  "issues_url": "someone@somewhere.com",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+

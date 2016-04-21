@@ -1,0 +1,23 @@
+{
+  "author": "rbabu",
+  "checksums": {
+    "manifests\\init.pp": "c042fd812fd74bf9f899c53cf52e4fe9",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests\\jpackage.pp": "d7dbed301f3a0dd7155fc27c9f7651c2",
+    "spec\\spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "tests\\init.pp": "c79f7d1ca11f033efbecbf0aa98491a0",
+    "manifests\\install.pp": "6aa932552d5009f8e94d69988587aece",
+    "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "Modulefile": "156a6f83c73a8478b253248c31d52c64",
+    "README.markdown": "0199d7e4958fbb57c9bd9cc8a225d8fe"
+  },
+  "dependencies": [],
+  "description": "",
+  "license": "Apach 2.0",
+  "name": "rbabu-tomcat7single",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "types": [],
+  "version": "0.1.0"
+}

@@ -1,0 +1,47 @@
+$TTL	86400
+@		IN SOA	masterserver.homeoffice.net.  root (
+				2013031929		; serial (d. adams)
+					3H		; refresh
+					15M		; retry
+					1W		; expiry
+					1D )		; minimum
+	                IN NS	     masterserver	
+masterserver            IN A    192.168.2.10
+puppetmaster            IN CNAME  masterserver
+puppet                  IN CNAME  masterserver
+wordpress               IN CNAME  masterserver
+python                  IN CNAME  masterserver
+svn                     IN A    192.168.2.10  
+homeoffice.net.         MX 10  mail 
+mail                    A    192.168.2.10
+chat                    IN A    192.168.2.10
+ftp                     IN A    192.168.2.10
+kvmserver               IN A    192.168.2.20
+xenserver               IN A    192.168.2.30
+
+namebased1              IN A    192.168.2.20
+namebased2              IN A    192.168.2.20
+
+kvmnode5401             IN A    192.168.122.101 
+kvmnode5402             IN A    192.168.122.102 
+kvmnode5403             IN A    192.168.122.103 
+
+kvmnode6401             IN A    192.168.122.201 
+kvmnode6402             IN A    192.168.122.202 
+kvmnode6403             IN A    192.168.122.203 
+kvmnode6404             IN A    192.168.122.204 
+kvmnode6405             IN A    192.168.122.205
+kvmnode6406             IN A    192.168.122.206 
+kvmnode6407             IN A    192.168.122.207 
+kvmnode6408             IN A    192.168.122.208 
+kvmnode6409             IN A    192.168.122.209
+ 
+puppetmaster101         IN A    192.168.122.210 
+puppetagent101          IN A    192.168.122.211 
+puppetagent102          IN A    192.168.122.212 
+
+;ldapmaster              IN A    192.168.122.109
+;ldapslave               IN A    192.168.122.110
+
+cats                    IN CNAME kvmnode6402  
+dogs                    IN CNAME kvmnode6403
