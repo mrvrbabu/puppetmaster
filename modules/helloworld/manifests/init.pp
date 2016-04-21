@@ -5,9 +5,16 @@
 =======
 #
 # Full description of class helloworld here.
+<<<<<<< Updated upstream
 #
 #Adding changes from shorten_title branch to init.pp file
 >>>>>>> shorten_title
+=======
+#class helloworld {
+#
+#
+#}
+>>>>>>> Stashed changes
 
 class helloworld {
     notify { 'hello, world!': }
