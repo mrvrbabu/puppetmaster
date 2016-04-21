@@ -3,6 +3,6 @@ class helloworld::motd {
     owner  => 'root',
     group  => 'root',
     mode    => '0644',
-    content => "hello, world!\n",
+    content => "hello, world - Welcome to world of stash!\n",
     }
  }
