@@ -28,3 +28,4 @@ Adding second line to init.pp file
 
 Adding line from macpro
 
+Adding line from imac
